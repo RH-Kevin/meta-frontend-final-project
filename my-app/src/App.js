@@ -4,6 +4,9 @@ import Hero from './components/Hero.js';
 import Footer from './components/Footer.js';
 import About from './components/About.js';
 import Highlights from './components/Highlights.js';
+import "@fontsource/markazi-text"; // Defaults to weight 400
+import "@fontsource/markazi-text/400.css"; // Specify weight
+
 
 
 
@@ -44,3 +47,5 @@ export default App;
 // npm install formik --save
 
 // npm install --save yup
+
+// npm install @fontsource/markazi-text

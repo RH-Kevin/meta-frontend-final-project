@@ -22,16 +22,16 @@ const Navbar = () => {
       paddingX={8}
       paddingY={4}
     >
-        <Box color="#000" maxWidth="1280px" margin="0 auto" height={60}>
+        <Box color="#000" maxWidth="1280px" margin="0 auto" height={60} display="grid" placeItems="center">
             <nav>
                 <HStack spacing={20} >
                 <Image src="./icons_assets/2/logo.png" alt="logo" width="50px"></Image>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Menu</a>
-                <a href="">Reservations</a>
-                <a href="">Order Online</a>
-                <a href="">Login</a>
+                <a className="navLinks" href="">Home</a>
+                <a className="navLinks" href="">About</a>
+                <a className="navLinks" href="">Menu</a>
+                <a className="navLinks" href="">Reservations</a>
+                <a className="navLinks" href="">Order Online</a>
+                <a className="navLinks" href="">Login</a>
                 </HStack>
             </nav>
         </Box>
