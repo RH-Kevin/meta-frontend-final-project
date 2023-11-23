@@ -74,3 +74,6 @@
   text-decoration: none;
   color: #000;
 }
+#title, #branch {
+  font-family: "Markazi Text";
+}
