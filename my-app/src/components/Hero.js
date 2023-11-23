@@ -1,8 +1,9 @@
 import React from "react";
-import {Box, Flex, SimpleGrid, Image } from "@chakra-ui/react";
+import {Box, Flex, SimpleGrid, Image, ChakraProvider } from "@chakra-ui/react";
 
 const Hero = () => {
   return (
+    <ChakraProvider>
     <Box backgroundColor="#495E57">
       <div>
         <Flex
@@ -28,6 +29,7 @@ const Hero = () => {
         </Flex>
       </div>
     </Box>
+    </ChakraProvider>
   );
 };
 export default Hero;

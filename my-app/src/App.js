@@ -4,6 +4,7 @@ import Hero from './components/Hero.js';
 import Footer from './components/Footer.js';
 import About from './components/About.js';
 import Highlights from './components/Highlights.js';
+import ReservationForm from './components/ReservationForm.js';
 import "@fontsource/markazi-text"; // Defaults to weight 400
 import "@fontsource/markazi-text/400.css"; // Specify weight
 
@@ -21,6 +22,7 @@ function App() {
       <Hero/>
       <Highlights/>
       <About/>
+      <ReservationForm/>
       <Footer/>
       </main>
       </>
@@ -49,3 +51,6 @@ export default App;
 // npm install --save yup
 
 // npm install @fontsource/markazi-text
+
+// npm install react-router-dom
+// npm install --save styled-components

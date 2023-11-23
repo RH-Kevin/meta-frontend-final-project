@@ -18,18 +18,18 @@ const Highlights = () => {
                 <Box bg='#EDEFEE' height='300px' width="200px" borderRadius={20} padding={10}>
                     <Image src="./icons_assets/greek salad.jpg"/>
                     <span><h4>Earth Salad</h4><h4 className="salePrice">$5.99</h4></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et turpis est. Nullam eu ex scelerisque, euismod nunc ac, tempor neque. </p>
+                    <p> Nullam eu ex scelerisque, euismod nunc ac, tempor neque. </p>
                 </Box>
 
                 <Box bg='#EDEFEE' height='300px' width="200px" borderRadius={20} padding={10}>
                 <Image src="./icons_assets/greek salad.jpg"/>
-                    <span><h4>Earth Salad</h4><h4 className="salePrice">$5.99</h4></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et turpis est. Nullam eu ex scelerisque, euismod nunc ac, tempor neque. </p>
+                    <span><h4>Lemon Cake</h4><h4 className="salePrice">$3.99</h4></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nullam eu ex scelerisque, euismod nunc ac, tempor neque. </p>
                 </Box>
                 <Box bg='#EDEFEE' height='300px' width="200px" borderRadius={20} padding={10}>
                 <Image src="./icons_assets/greek salad.jpg"/>
-                    <span><h4>Earth Salad</h4><h4 className="salePrice">$5.99</h4></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et turpis est. Nullam eu ex scelerisque, euismod nunc ac, tempor neque. </p>
+                    <span><h4>Bruschetta</h4><h4 className="salePrice">$3.99</h4></span>
+                    <p> Nunc et turpis est. Nullam eu ex scelerisque, euismod nunc ac, tempor neque. </p>
                 </Box>
             </SimpleGrid>
         </Flex>
